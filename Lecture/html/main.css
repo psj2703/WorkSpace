@@ -1,0 +1,17 @@
+div:active {
+    color: red;
+}
+input.chapter1:focus {
+    background-color : orange;
+}
+.con1::after {
+    content: "123";
+    color: magenta;
+    font-size: 20px;
+}
+[disabled] {
+    background-color: red;
+}
+[type="password"]{
+    color: yellowgreen;
+}
